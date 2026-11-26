@@ -1,0 +1,10 @@
+:root { color-scheme: light dark; --bg: #f7f1e6; --fg: #2b2420; --muted: #6b5f55; --link: #8a3b12; }
+@media (prefers-color-scheme: dark) { :root { --bg: #1d1a17; --fg: #efe6da; --muted: #b3a697; --link: #f0a46b; } }
+html { background: var(--bg); color: var(--fg); }
+body { margin: 0; font: 18px/1.6 Georgia, "Iowan Old Style", "Times New Roman", serif; }
+main { max-width: 40rem; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
+h1 { font-size: 2rem; line-height: 1.2; margin: 0.5rem 0 1rem; font-weight: normal; }
+h2 { font-size: 1.15rem; margin: 2rem 0 0.5rem; }
+a { color: var(--link); }
+.date { color: var(--muted); margin-top: -0.5rem; }
+li { margin: 0.4rem 0; }
